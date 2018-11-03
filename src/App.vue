@@ -9,6 +9,7 @@
     <navbar></navbar>
 
     <div class="container">
+      <h5>Woooow</h5>
       <button class="btn btn-success" @click="isNew = !isNew">Create</button>
       <RecipeForm v-if="isNew" @saveRecipe="addRecepi"></RecipeForm>
       <input type="text" class="form-control" 
